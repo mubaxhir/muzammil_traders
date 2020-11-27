@@ -1,0 +1,104 @@
+.App {
+  overflow-x: hidden; 
+  /* overflow-y: scroll; */
+}
+
+/* .spacer{
+  height: 150px;
+} */
+
+
+.intro{
+  height:auto;
+  margin-top: 40px;
+  /* position: absolute; */
+  /* display: flex; */
+  text-align: center;
+  padding: 20PX;
+  padding-right: 30px;
+  background-image: linear-gradient(to bottom , rgb(255, 255, 255), rgb(20, 218, 142), #41b1f0 );
+  background-image: rgb(20, 218, 142);
+}
+.intro__para{
+  height: 85%;
+  width: 100%;
+  padding: 20px;
+}
+.intro > h1 {
+  font-weight: 600;
+  font-size: xx-large;
+  font-family: 'sans-serif';
+  padding: 5px;
+  color: white;
+  background-image: linear-gradient(to bottom right , rgb(200, 255, 248), rgb(38, 0, 255),rgb(3, 218, 207));
+}
+.intro__para > p{
+  color: rgb(7, 7, 7);
+  font-size: x-large;
+  font-weight: 300;
+}
+/* .front__image{
+  width: 40%;
+  height: 70%;
+  margin-top: 3%;
+  margin-right: 2%;
+  padding: 20px;
+  border-radius: 20%;
+  box-shadow: limegreen;
+  box-shadow: 0 0 2px;
+} */
+
+
+.bg-image{
+  /* The image used */
+  background-image: url("front.jpg");
+  height: 400px;
+  width: 100%;
+  margin: 5px;
+  
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 5px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.slider{
+  height: auto;
+  background-color: #41b1f0;
+  
+}
+.slider > h1{
+  color: black;
+  background-color: none;
+  text-align: center;
+  font-size: xxx-large;
+  margin: 0;
+}
+.slider__slide{
+  margin: -1px;
+  height: 100%;
+}
+
+.slider__slide > img{
+  height: -webkit-fill-available;
+  height: 700px;
+}

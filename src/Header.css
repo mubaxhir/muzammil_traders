@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(253 255 108);
+    background-image: linear-gradient(to bottom , rgb(0, 138, 143), rgb(255, 255, 255));
+    /* position: fixed; */
+    padding: 1vw;
+    width: 98%;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.leftHeader{
+    display: flex;
+}
+.leftHeader:hover{
+    cursor: pointer;
+}
+
+.leftHeader > img{
+    height: 70%;
+}
+
+.leftHeader > h1{
+    font-family: serif;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-weight: 800;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.rightHeader{
+    display: flex;
+    padding-top: 4%;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+
+.navItem{
+    display: grid;
+    width:  80px;
+    height: 50px;
+    margin: 5px;
+}
+
+.navItem:hover{
+    color: red;
+    cursor: pointer;
+}    
